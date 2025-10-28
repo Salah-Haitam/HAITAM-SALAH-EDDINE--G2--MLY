@@ -4,6 +4,7 @@
 
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
 
+Fait par : HAITAM Salah-Eddine
 ***
 
 ## Introduction
@@ -812,6 +813,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
