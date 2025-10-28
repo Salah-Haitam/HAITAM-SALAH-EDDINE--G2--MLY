@@ -5,6 +5,7 @@
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
 
 Fait par : HAITAM Salah-Eddine
+<img src="collection.jpeg" style="height:464px;margin-right:432px"/>
 ***
 
 ## Introduction
@@ -222,10 +223,21 @@ class GestionTaches {
 ### Quiz sur les Listes (ArrayList et LinkedList)
 
 1. Quelle implémentation offre un accès en temps constant par index ?
-2. Quelles sont les complexités d'ajout au milieu d'un ArrayList vs LinkedList ?
-3. Quelle structure utilise des pointeurs pour gérer les éléments ?
-4. Peut-on insérer des doublons dans une List ?
-5. Quelles sont les différences majeures entre ArrayList et LinkedList ?
+   Reponse : ArrayList offre un accès en temps constant (O(1)) par index.
+3. Quelles sont les complexités d'ajout au milieu d'un ArrayList vs LinkedList ?
+   Reponse :
+   - Pour un ArrayList, l'ajout au milieu a une complexité de O(n) en raison du décalage des éléments.
+   - Pour une LinkedList, l'ajout au milieu a une complexité de O(n) pour trouver l'emplacement, mais l'ajout en lui-même est O(1) une fois l'emplacement trouvé.
+5. Quelle structure utilise des pointeurs pour gérer les éléments ?
+   Reponse :
+   - LinkedList utilise des pointeurs pour gérer les éléments, chaque nœud pointant vers le nœud suivant et/ou précédent.
+7. Peut-on insérer des doublons dans une List ?
+   Reponse :
+   - Oui, on peut insérer des doublons dans une List, que ce soit une ArrayList ou une LinkedList.
+9. Quelles sont les différences majeures entre ArrayList et LinkedList ?
+    Reponse :
+   - ArrayList utilise un tableau dynamique pour stocker les éléments, offrant un accès rapide par index mais des performances moindres pour les insertions/suppressions au milieu.
+   - LinkedList utilise une structure de nœuds avec des pointeurs, permettant des insertions/suppressions efficaces, mais un accès par index plus lent.
 
 ***
 
@@ -814,6 +826,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
