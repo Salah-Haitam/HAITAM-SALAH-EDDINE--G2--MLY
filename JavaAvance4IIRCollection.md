@@ -85,6 +85,7 @@ ArrayList est une implémentation dynamique de tableau redimensionnable. Elle aj
 **Descriptif :**
 Ce projet simule la gestion d’une petite bibliothèque. Chaque livre est représenté par une classe et stocké dans une ArrayList. Le gestionnaire permet d’ajouter des livres et d’afficher la collection, illustrant l’utilisation pratique d’une ArrayList pour organiser et parcourir des objets.
 
+Ce code implémente une classe `Livre` pour modéliser des livres avec des attributs de titre,auteur et année. La classe `GestionBibliotheque` utilise un `ArrayList` pour stocker dynamiquement des objets `Livre`, permettant d'ajouter et d'afficher les livres facilement.L'utilisation d'une `ArrayList` facilite la gestion de la collection de livres sans nécessiter de taille prédéfinie.
 ```java
 import java.util.ArrayList;
 
@@ -813,6 +814,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
